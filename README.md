@@ -1,11 +1,11 @@
 ## 심전도(Electorcardiogram,ECG) 데이터 분류  - Team : 데이탑
 데이탑 팀의 "심전도 데이터 분류"에 대한 실행 가이드를 위한 파일입니다.
 ### 실행 환경
->+ Jupyter Lab
->+ tensorflow 2.7.0
->+ keras 2.7.0
->+ librosa 0.8.1
->+ xmltodict 0.12.0
++ Jupyter Lab
++ tensorflow 2.7.0
++ keras 2.7.0
++ librosa 0.8.1
++ xmltodict 0.12.0
 
 ### 실행 방법
 #### Train 파일 폴더 구조
@@ -20,5 +20,7 @@ data
 └──── validation
         ├── normal
         └── arrhythmia
-
 ```
+### 필요한 라이브러리 설치
++ pip install librosa  
++ pip install xmltodict
