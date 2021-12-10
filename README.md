@@ -20,6 +20,10 @@ data
         ├── normal
         └── arrhythmia
 ```
+참고: 지정 폴더에서 Normal, arrhythmia 폴더의 파일명과 경로를 가져와 dataframe에 저장  
+      decoding시 문제되는 파일과 Waveform data 조합 시 길이가 달라 error가 발생되는 파일에 대해 제거  
+      제거 후 최종 dataframe에서 train & test 데이터 생성 됨
+
 
 ### 필요한 라이브러리 설치
 + pip install librosa  
