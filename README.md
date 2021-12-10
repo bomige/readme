@@ -10,7 +10,7 @@
 ### 실행 방법
 #### Train 파일 폴더 구조
  학습에 적용한 train, validation 폴더 구조fj, 동일한 구조로 평가 부탁드립니다.  
- #### "ECG_TEST_MODEL.ipynb"를 실행하시고 "DATA_DIR" 만 변경해주시고 실행 하시면 됩니다.
+ #### "ECG_TEST_MODEL.py" 실행 ==> "DATA_DIR" {}/... normal & arrhythmia 상위 폴더
 ```c
 data
 ├──── train
