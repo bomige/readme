@@ -10,7 +10,8 @@
 ### 실행 방법
 #### Train 파일 폴더 구조
  학습에 적용한 train, validation 폴더 구조fj, 동일한 구조로 평가 부탁드립니다.  
- #### "ECG_TEST_MODEL.py" 실행 ==> "DATA_DIR" {}/... normal & arrhythmia 상위 폴더
+ #### "ECG_TEST_MODEL.py" 실행 ==> "DATA_DIR" {}/... normal & arrhythmia 상위 폴더  
+ #### "ECG_classification_resnet.h5" 파일은 py 파일과 동일한 폴더
 ```c
 data
 ├──── train
